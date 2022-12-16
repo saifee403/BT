@@ -1,0 +1,52 @@
+:root{
+    --primary: #fee116;
+    --light: #f1f8ff;
+    --dark: #0f172b;
+}
+body{
+    background-color: #fff;
+}
+.navbar{
+    height: 70px;
+}
+.carousel-item img{
+    height: 70vh;
+}
+.navbar a {
+    /* word-spacing: 20px; */
+    align-items: center;
+    margin: 0% !important;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  .formm{
+    width: 100%;
+    height: 680px;
+    /* border: 1px solid gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(167, 122, 209); */
+    background-image: url(./1\ \(4\).jpg);
+}
+.form-content{
+    width: 500px;
+    height: 450px;
+    border: 3px solid rgb(199, 235, 145);
+    padding: 10px 50px;
+    /* background-color: rgb(221 220 169); */
+    background-image: url(./1\ \(2\).jpg);
+
+}
